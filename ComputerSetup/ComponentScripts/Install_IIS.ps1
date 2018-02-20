@@ -1,0 +1,12 @@
+﻿Dism /Online /Enable-Feature /FeatureName:IIS-ASPNET /All
+Dism /Online /Enable-Feature /FeatureName:IIS-ASPNET45 /All
+Dism /Online /Enable-Feature /FeatureName:IIS-CertProvider /All
+Dism /Online /Enable-Feature /FeatureName:IIS-HttpRedirect /All
+Dism /Online /Enable-Feature /FeatureName:IIS-BasicAuthentication /All
+Dism /Online /Enable-Feature /FeatureName:IIS-WebSockets /All
+Dism /Online /Enable-Feature /FeatureName:IIS-ApplicationInit /All
+Dism /Online /Enable-Feature /FeatureName:IIS-CustomLogging /All
+Dism /Online /Enable-Feature /FeatureName:IIS-ManagementService /All
+Dism /Online /Enable-Feature /FeatureName:WCF-Services45 /All
+Dism /Online /Enable-Feature /FeatureName:WCF-HTTP-Activation45 /All
+Dism /Online /Enable-Feature /FeatureName:IIS-WindowsAuthentication /All
